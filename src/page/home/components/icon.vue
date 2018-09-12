@@ -77,7 +77,7 @@
 <style scoped>
 .box{
     display: flex;
-    height: 20vh;
+
     flex-wrap: wrap;
 }
 .img_box{
@@ -85,9 +85,9 @@
     text-align: center;
 }
 .img-content{
-    width: 40%;
-    height: 40%;
-    margin-bottom: 5px;
-    margin-top: 15px;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.1rem;
 }
 </style>
