@@ -1,7 +1,7 @@
 <template>
     <div>
         <swiper class="swipper" :options="swiperOption" >
-            <swiper-slide v-for="item of swiperList" :key="item.id">
+            <swiper-slide v-for="item of list" >
                 <img :src="item.img_url" />
             </swiper-slide>
             <!-- Optional controls -->
@@ -12,6 +12,9 @@
 
 <script>
     export default {
+        props:{
+            list:Array
+        },
         data (){
             return{
                 swiperOption: {
@@ -19,20 +22,8 @@
                         el: '.swiper-pagination'
                     },
                     loop:true
-                },
-                swiperList:[{
-                    id:'001',
-                    img_url:require("../../../assets/img/01.jpg")
-                },{
-                    id:'002',
-                    img_url:require("../../../assets/img/02.jpg")
-                },{
-                    id:'003',
-                    img_url:require("../../../assets/img/01.jpg")
-                },{
-                    id:'004',
-                    img_url:require("../../../assets/img/02.jpg")
-                }]
+                }
+
             }
         }
         // name: "swiper",

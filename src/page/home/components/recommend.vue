@@ -66,6 +66,7 @@
 .item{
     display: flex;
     padding: 10px;
+    border-bottom: 1px solid #eee;
 }
 .img_wrapper{
     margin-right: .5rem;

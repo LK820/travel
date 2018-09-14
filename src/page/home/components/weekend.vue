@@ -49,7 +49,6 @@
     .title{
         background: #eee;
         line-height: 1.8rem;
-        margin-top: 0.5rem;
         font-size: 0.8rem;
         text-indent: 0.5rem;
         padding: 5px;
