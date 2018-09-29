@@ -16,12 +16,12 @@
 <style lang="stylus" scoped>
     .cityHeader
         overflow: hidden;
-        height: 3.2rem
-        line-height: 3.2rem
+        height: 2.2rem
+        line-height: 2.2rem
         text-align: center
         color: #fff
         background:#00bcd4
-        font-size :1.3rem
+        font-size :1.1rem
         position: relative
         .cityHeaderBack
             width: 2rem
