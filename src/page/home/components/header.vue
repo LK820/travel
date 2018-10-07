@@ -27,7 +27,6 @@
     .header
         display:flex
         height: 2.5rem
-
         background: $bgColor
         color:#fff
         align-items :center
@@ -41,13 +40,12 @@
             flex:1
             border-radius :0.2rem
             height: 1.8rem
-            line-height: 2rem
+            line-height: 1.8rem
             /*align-self :center*/
             background: #fff
             color:#ccc
             padding-left: 0.5rem
             font-size :0.8rem
-            lh1.8rem
         .header-right
             float: right
             width: 4rem

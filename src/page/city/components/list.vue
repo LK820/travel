@@ -12,16 +12,16 @@
             <div class="area">
                 <div class="title">热门城市</div>
                 <div class="button-list">
-                   <div class="button-wrapper" v-for="i of hot">
+                   <div class="button-wrapper" v-for="(i,k) of hot" :key="k">
                        <div class="button">{{i.name}}</div>
                    </div>
                 </div>
             </div>
 
-            <div class="area" v-for="(i,k) of cities">
+            <div :ref="k" class="area" v-for="(i,k) of cities" :key="k">
                 <div class="title">{{k}}</div>
                 <div class="item-list">
-                    <div class="item" v-for="innerI of i">
+                    <div class="item" v-for="(innerI,key) of i" :key="key">
                         {{innerI.name}}
                     </div>
 
@@ -40,11 +40,20 @@
         },
         props:{
             hot:Array,
-            cities:Object
+            cities:Object,
+            letter:String
         },
         data(){
             return{
-
+            }
+        },
+        watch:{
+            letter(){
+                if(this.letter){
+                    console.log(this.hot)
+                    const element = this.$refs[this.letter][0];
+                    this.scroll.scrollToElement(element)
+                }
             }
         }
     }

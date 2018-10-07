@@ -1,233 +1,695 @@
 {
-  "data":{
-    "city":"北京",
-    "swiperList":[{
-      "id":"001",
-      "img_url":"../../../assets/img/01.jpg"
-    },{
-      "id":"002",
-      "img_url":"../../../assets/img/02.jpg"
-    },{
-      "id":"003",
-      "img_url":"../../../assets/img/01.jpg"
-    },{
-      "id":"004",
-      "img_url":"../../../assets/img/02.jpg"
-    }],
-    "iconList":[{
-      "img_url":"../../../assets/img/jar.png",
-      "description":"出境游"
-    },{
-      "img_url":"../../../assets/img/cup.png",
-      "description":"热门风景"
-    },{
-      "img_url":"../../../assets/img/knife.png",
-      "description":"美食林"
-    },{
-      "img_url":"../../../assets/img/mw.png",
-      "description":"超级巴士"
-    },{
-      "img_url":"../../../assets/img/eggbeater.png",
-      "description":"攻略"
-    },{
-      "img_url":"../../../assets/img/trash.png",
-      "description":"汽车票"
-    },{
-      "img_url":"../../../assets/img/rolling.png",
-      "description":"国内游"
-    },{
-      "img_url":"../../../assets/img/urn.png",
-      "description":"签证"
-    }],
-    "itemList":[{
-      "img_url":"../../../assets/img/sanya.jpg",
-      "title":"大连圣亚海洋世界",
-      "des":"浪漫大连首战，浪漫的海洋主题乐园",
-      "price":99
-    },{
-      "img_url":"../../../assets/img/euro.jpg",
-      "title":"大连成员温泉",
-      "des":"与动物嬉戏，共享和谐人生与动物嬉戏与动物嬉戏",
-      "price":48
-    },{
-      "img_url":"../../../assets/img/Japan.jpg",
-      "title":"老虎滩海燕公园",
-      "des":"浓缩极低世界，展现海洋奇怪",
-      "price":50
-    },{
-      "img_url":"../../../assets/img/lijiang.jpg",
-      "title":"大连香洲旅游度假区",
-      "des":"将壮观诠释到完美，将梦想展示给世界",
-      "price":10
-    },{
-      "img_url":"../../../assets/img/bali.jpg",
-      "title":"大连森林动物园",
-      "des":"有温泉，有嬉水乐园",
-      "price":20
-    }]
-  },
-  "cityList":{
-      "ret":true,
-      "data":{
-        "hotCities":[{
-            "id": 1,
-            "spell": "beijing",
-            "name": "北京"
-          },{
-            "id":3,
-            "spell":"shanghai",
-            "name":"上海"
-          },{
-            "id":47,
-            "spell":"xian",
-            "name":"西安"
-          },{
-          "id":237,
-          "spell":"sanya",
-          "name":"三亚"
-        },{
-          "id":188,
-          "spell":"lijiang",
-          "name":"丽江"
-        }],
-        "cities":{
-          "A":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "B":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "C":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "D":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "E":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "F":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "G":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }],
-          "H":[{
-            "id":56,
-            "spell":"aba",
-            "name":"阿坝"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          },{
-            "id":58,
-            "spell":"akesu",
-            "name":"阿克苏"
-          }]
-        }
+  "data": {
+    "city": "北京",
+    "swiperList": [
+      {
+        "id": "001",
+        "img_url": "../../../assets/img/01.jpg"
+      },
+      {
+        "id": "002",
+        "img_url": "../../../assets/img/02.jpg"
+      },
+      {
+        "id": "003",
+        "img_url": "../../../assets/img/01.jpg"
+      },
+      {
+        "id": "004",
+        "img_url": "../../../assets/img/02.jpg"
       }
+    ],
+    "iconList": [
+      {
+        "img_url": "../../../assets/img/jar.png",
+        "description": "出境游"
+      },
+      {
+        "img_url": "../../../assets/img/cup.png",
+        "description": "热门风景"
+      },
+      {
+        "img_url": "../../../assets/img/knife.png",
+        "description": "美食林"
+      },
+      {
+        "img_url": "../../../assets/img/mw.png",
+        "description": "超级巴士"
+      },
+      {
+        "img_url": "../../../assets/img/eggbeater.png",
+        "description": "攻略"
+      },
+      {
+        "img_url": "../../../assets/img/trash.png",
+        "description": "汽车票"
+      },
+      {
+        "img_url": "../../../assets/img/rolling.png",
+        "description": "国内游"
+      },
+      {
+        "img_url": "../../../assets/img/urn.png",
+        "description": "签证"
+      }
+    ],
+    "itemList": [
+      {
+        "img_url": "../../../assets/img/sanya.jpg",
+        "title": "大连圣亚海洋世界",
+        "des": "浪漫大连首战，浪漫的海洋主题乐园",
+        "price": 99
+      },
+      {
+        "img_url": "../../../assets/img/euro.jpg",
+        "title": "大连成员温泉",
+        "des": "与动物嬉戏，共享和谐人生与动物嬉戏与动物嬉戏",
+        "price": 48
+      },
+      {
+        "img_url": "../../../assets/img/Japan.jpg",
+        "title": "老虎滩海燕公园",
+        "des": "浓缩极低世界，展现海洋奇怪",
+        "price": 50
+      },
+      {
+        "img_url": "../../../assets/img/lijiang.jpg",
+        "title": "大连香洲旅游度假区",
+        "des": "将壮观诠释到完美，将梦想展示给世界",
+        "price": 10
+      },
+      {
+        "img_url": "../../../assets/img/bali.jpg",
+        "title": "大连森林动物园",
+        "des": "有温泉，有嬉水乐园",
+        "price": 20
+      }
+    ]
+  },
+  "cityList": {
+    "ret": true,
+    "data": {
+      "hotCities": [
+        {
+          "id": 1,
+          "spell": "beijing",
+          "name": "北京"
+        },
+        {
+          "id": 3,
+          "spell": "shanghai",
+          "name": "上海"
+        },
+        {
+          "id": 47,
+          "spell": "xian",
+          "name": "西安"
+        },
+        {
+          "id": 237,
+          "spell": "sanya",
+          "name": "三亚"
+        },
+        {
+          "id": 188,
+          "spell": "lijiang",
+          "name": "丽江"
+        }
+      ],
+      "cities": {
+        "A": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "B": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "C": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "D": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "E": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "F": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "G": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "H": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "I": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "J": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "K": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "L": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "M": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "N": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "O": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "P": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "Q": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "R": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "S": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "T": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "U": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "V": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "W": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "X": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "Y": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ],
+        "Z": [
+          {
+            "id": 56,
+            "spell": "aba",
+            "name": "阿坝"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          },
+          {
+            "id": 58,
+            "spell": "akesu",
+            "name": "阿克苏"
+          }
+        ]
+      }
+    }
   }
 }
